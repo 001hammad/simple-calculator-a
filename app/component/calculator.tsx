@@ -24,8 +24,8 @@ function Calculator (){
             const evaluatedResult = evaluate(input);
             setResult(evaluatedResult)
         }
-        catch(error){
-            setResult('Invalid digit error')
+        catch{
+            setResult('Error')
         }
     }
 
