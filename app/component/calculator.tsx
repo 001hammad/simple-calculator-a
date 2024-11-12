@@ -33,8 +33,9 @@ function Calculator (){
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
           <h5 className='text-gray-500 mb-6'>Calculator is Developed By Hammad</h5>
-          <div className="bg-white p-6 rounded shadow-md max-w-xs w-full">
+          <div className="bg-gray-200 p-6 rounded shadow-xl border border-gray-500 max-w-xs w-full">
             <h2 className="text-xl font-bold mb-4">Simple Calculator</h2>
+            <div className="mt-4 text-lg font-bold">Result: {result}</div>
             <input
               type="text"
               value={input}
@@ -60,7 +61,7 @@ function Calculator (){
             >
               Clear
             </button>
-            <div className="mt-4 text-lg font-bold">Result: {result}</div>
+            
           </div>
         </div>
       );
